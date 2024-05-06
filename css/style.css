@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+
+.container a.active {
+    background-color: rgb(0, 206, 0);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.container a:hover:not(.active) {
+    background-color: rgb(194, 193, 193);
+    border-radius: 5px;
+}
